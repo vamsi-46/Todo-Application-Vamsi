@@ -147,9 +147,9 @@ class MainActivity : ComponentActivity() {
                         postTodo(text)
                         text = ""
                     },
-                    modifier = Modifier.align(Alignment.CenterVertically)
+                    modifier = Modifier.align(Alignment.Bottom)
                 ) {
-                    Text(text = stringResource(id = R.string.app_name))
+                    Text(text = stringResource(id = R.string.button))
                 }
             }
         }
